@@ -8,3 +8,6 @@ on:
 jobs:
   my_first_job:
     name: Chalu hoke Terraform init kar de
+    runs-on: test_runner
+    steps:
+    - run: echo Hello world!
