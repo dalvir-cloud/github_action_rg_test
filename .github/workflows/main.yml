@@ -1,0 +1,10 @@
+name: main.yml
+run-name: run the workflow
+on:
+  push:
+    branches:
+      - main
+      - releases/*
+jobs:
+  my_first_job:
+    name: Chalu hoke Terraform init kar de
